@@ -1,4 +1,4 @@
-package logistic
+package HiC
 
 class Calculator(val func:(Double=>Double)) {
   def start(init:Double, cycle:Int) :List[Double] = {
