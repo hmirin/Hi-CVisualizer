@@ -1,13 +1,6 @@
 package HiC
 
 
-/**
- * Created with IntelliJ IDEA.
- * User: Yotaro
- * Date: 2013/11/14
- * Time: 18:10
- * To change this template use File | Settings | File Templates.
- */
 class chromMatrix(val size:Int,val chromLen:Map[String,Int],val chromNames:List[String]) {
   val totallength = chromLen.values.foldLeft(0:Long)(_+_)
   val perpx = totallength*1.0 / size
